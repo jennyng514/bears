@@ -1,0 +1,16 @@
+<h2>Search bears!</h2>
+<form method="GET">
+	 <div class="search">
+	    label: <input type="text" name="labelQ">
+	    weight: <input type="number" name="weightQ">
+	    <input type="submit" value="Show me some bears!">
+    </div>
+</form>
+
+{{#each bear}}
+<li>
+<img class="bear" src="{{imagePath}}">
+{{label}};
+{{weight}} lbs.
+</li>
+{{/each}}

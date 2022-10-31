@@ -1,0 +1,45 @@
+body {
+	background-color: white;
+	font-family: Gill Sans, sans-serif
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bear {
+	display: inline;
+	width: 150px;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+.nav {	
+	text-align: center;
+}
+
+a {
+	color: black;
+	border: 2px solid black;  
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+li {
+	text-align: center;
+	list-style-type: none;
+}
+
+.search, .add {
+	text-align: center;
+	padding: 20px;
+}
+
+footer {
+	position: absolute;
+}
